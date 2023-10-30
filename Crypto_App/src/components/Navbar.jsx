@@ -10,7 +10,7 @@ function Navbar(){
             <div className="logo-container">
                 <Avatar src="" size="large"/>
                 <Typography.Title level={2} className="logo">
-                    <Link to="/">Crypto App</Link>
+                    <Link to="/">CryptoTracker</Link>
                 </Typography.Title>
             </div>
             {/* <Button className="menu-control-container">
@@ -20,7 +20,7 @@ function Navbar(){
                         <Link to="/">Home</Link>
                     </Menu.Item>
                     <Menu.Item icon={<FundOutlined/>}>
-                        <Link to="/cryptocurrencies">CrypotCurrencies</Link>
+                        <Link to="/cryptocurrencies">CryptoCurrencies</Link>
                     </Menu.Item>
                     <Menu.Item icon={<MoneyCollectOutlined/>}>
                         <Link to="/exchanges">Exchanges</Link>
